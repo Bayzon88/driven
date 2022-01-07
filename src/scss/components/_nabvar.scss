@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Lato&family=PT+Sans+Narrow:wght@700&family=Poppins:wght@700;800&family=Roboto+Condensed&family=Roboto+Slab&display=swap");
+
+$bgNavBar: black;
+.navBarContainer {
+  background-color: $bgNavBar;
+}
+.customNavBar {
+  background-color: black;
+  color: white;
+  height: 92.6px;
+  align-items: center;
+  max-width: 1210px;
+
+  &__links {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: -0.4px;
+
+    li {
+      display: flex;
+      flex-direction: column;
+      padding: 10px 0;
+    }
+    li::after {
+      margin-top: 8px;
+      content: "";
+      width: 20px;
+      background-color: yellow;
+      height: 2px;
+    }
+  }
+  &__logo {
+    background-image: url(https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://somosdriven.com/wp-content/uploads/2021/01/logo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.hamburguerMenu {
+  display: flex;
+  height: 18px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.hamburguerLine {
+  width: 24px;
+  height: 2px;
+  background-color: white;
+  border-radius: 10px;
+}

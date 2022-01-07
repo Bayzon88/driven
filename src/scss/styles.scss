@@ -1,0 +1,17 @@
+@use "./components/nabvar";
+@use "./components/hero";
+
+html {
+  background-color: black;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+
+// tailwind
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

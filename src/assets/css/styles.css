@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Lato&family=PT+Sans+Narrow:wght@700&family=Poppins:wght@700;800&family=Roboto+Condensed&family=Roboto+Slab&display=swap");
+.navBarContainer {
+  background-color: black;
+}
+
+.customNavBar {
+  background-color: black;
+  color: white;
+  height: 92.6px;
+  align-items: center;
+  max-width: 1210px;
+}
+.customNavBar__links {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: -0.4px;
+}
+.customNavBar__links li {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+.customNavBar__links li::after {
+  margin-top: 8px;
+  content: "";
+  width: 20px;
+  background-color: yellow;
+  height: 2px;
+}
+.customNavBar__logo {
+  background-image: url(https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://somosdriven.com/wp-content/uploads/2021/01/logo2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hamburguerMenu {
+  display: flex;
+  height: 18px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.hamburguerLine {
+  width: 24px;
+  height: 2px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.hero {
+  background-color: black;
+  background-image: url(https://somosdriven.com/wp-content/uploads/2021/09/hero_o.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero__main {
+  padding: 70px 30px 0 30px;
+}
+.hero__main--phrase {
+  font-family: "Poppins", sans-serif;
+  font-size: 78px;
+  font-weight: 800;
+  line-height: 80px;
+  width: 62%;
+  letter-spacing: -1.9px;
+  color: white;
+}
+
+.sectionDivision::before {
+  content: "";
+  width: 70px;
+  background-color: yellow;
+  height: 2px;
+}
+
+.button-conversemos {
+  height: 55px;
+  text-align: center;
+  width: 133px;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: lighter;
+  border-style: solid;
+  color: white;
+  border-color: #ff0;
+  background-color: #1b1b1b;
+  border-width: 1px;
+  padding: 20px;
+}
+
+.ecosistema__card {
+  padding: 90px 30px;
+  background: linear-gradient(180deg, #1b1b1b 0%, #1b1b1b 100%);
+  line-height: 0px;
+  height: 521px;
+  color: white;
+}
+.ecosistema__card i {
+  font-size: 80px;
+  color: white;
+}
+.ecosistema__card h3 {
+  font-size: 22px;
+  font-weight: 600;
+}
+.ecosistema__card p {
+  font-family: "Roboto Condensed";
+  line-height: 1.5;
+  font-size: 17px;
+  margin: 0 0 15px;
+  text-align: left;
+  letter-spacing: 0.005cm;
+}
+
+.cardDivisor {
+  height: 22px;
+}
+
+.cardDivisor::after {
+  content: " ";
+  background-color: #61ce70;
+  width: 40px;
+  height: 2px;
+}
+
+#card1:hover i,
+#card2:hover i,
+#card3:hover i {
+  color: black;
+}
+
+#card1:hover {
+  background: linear-gradient(180deg, #f0f 0%, #f0f 100%);
+  color: black;
+}
+
+#card2:hover {
+  background-image: linear-gradient(180deg, #0f0 0%, #0f0 100%);
+  color: black;
+}
+
+#card3:hover {
+  background-image: linear-gradient(180deg, #0ff 0%, #0ff 100%);
+  color: black;
+}
+
+html {
+  background-color: black;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*# sourceMappingURL=styles.css.map */
