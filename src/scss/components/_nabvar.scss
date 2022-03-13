@@ -23,13 +23,6 @@ $bgNavBar: black;
       flex-direction: column;
       padding: 10px 0;
     }
-    li::after {
-      margin-top: 8px;
-      content: "";
-      width: 20px;
-      background-color: yellow;
-      height: 2px;
-    }
   }
   &__logo {
     background-image: url(https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://somosdriven.com/wp-content/uploads/2021/01/logo2.png);

@@ -7,17 +7,18 @@ export default function Hero() {
     <>
       <section id='hero' className='hero h-100'>
         <div className=' hero__main'>
-          <span className='sectionDivision flex w-full   mb-5'></span>
-          <div className='mb-8 mt-8'>
-            <h3 className='hero__main--phrase  '>
+          <div className=' '>
+            <span className='sectionDivision flex w-full   mb-5'></span>
+            <h3 className='hero__main--phrase mt-20 '>
               Impulsamos negocios que no conocen excusas.
             </h3>
+            <div className='flex w-full button-wrapper mt-16  '>
+              <a href='#contact' className='button-conversemos flex items-center'>
+                Conversemos
+              </a>
+            </div>
           </div>
-          <div className='flex w-full button-wrapper mt-16  '>
-            <a href='#contact' className='button-conversemos flex items-center'>
-              Conversemos
-            </a>
-          </div>
+
           <span
             id='ecosistemaDriven'
             className='ecosistema  gap-5 grid grid-cols-1    tableta:grid-cols-3  pt-36'
@@ -25,13 +26,13 @@ export default function Hero() {
             <div id='card1' className='ecosistema__card h-96 tableta:h-100  '>
               {/* <FontAwesomeIcon icon={faCoffee} /> */}
               <i class='fas fa-cannabis'></i>
+
               <h3 className='mt-5 mb-5'>ENFOQUE DR!V3N</h3>
               <div className='cardDivisor flex'> </div>
               <p>
-                La estrategia y especialización de una consultora, la
-                creatividad y capacidad de marketing de agencias creativas y de
-                medios, sumada a la eficiencia y recursos de una empresa
-                tecnológica. ¿Suena loco? Lo somos
+                La estrategia y especialización de una consultora, la creatividad y capacidad de
+                marketing de agencias creativas y de medios, sumada a la eficiencia y recursos de
+                una empresa tecnológica. ¿Suena loco? Lo somos
               </p>
             </div>
             <div id='card2' className='ecosistema__card h-96  tableta:h-100 '>
@@ -39,9 +40,8 @@ export default function Hero() {
               <h3 className='mt-5 mb-5'>ENFOQUE DR!V3N</h3>
               <div className='cardDivisor flex'> </div>
               <p>
-                Accede a una red de especialistas, empresas y herramientas con
-                la misma capacidad de lograr resultados y resolver problemas que
-                nos caracterizan.
+                Accede a una red de especialistas, empresas y herramientas con la misma capacidad de
+                lograr resultados y resolver problemas que nos caracterizan.
               </p>
             </div>
             <div id='card3' className='ecosistema__card h-96  tableta:h-100  '>
@@ -49,10 +49,9 @@ export default function Hero() {
               <h3 className='mt-5 mb-5'>RESULTADOS REALES</h3>
               <div className='cardDivisor flex'> </div>
               <p>
-                No importa el reto o la etapa de desarrollo de tu negocio. Nos
-                basamos en datos e insights de comportamiento para diseñar y
-                desarrollar la mejor estrategia o solución para lograr
-                resultados.
+                No importa el reto o la etapa de desarrollo de tu negocio. Nos basamos en datos e
+                insights de comportamiento para diseñar y desarrollar la mejor estrategia o solución
+                para lograr resultados.
               </p>
             </div>
           </span>

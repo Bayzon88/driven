@@ -5,6 +5,9 @@ module.exports = {
       padding: {
         // xl: "8rem",
       },
+      margin: {
+        xl: "10rem",
+      },
     },
     screens: {
       desk: "1200px",

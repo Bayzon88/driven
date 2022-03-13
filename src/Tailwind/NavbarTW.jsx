@@ -8,32 +8,80 @@ export default function NavBarTW() {
           <a className='customNavBar__logo h-9 w-40  desk:h-14 desk:w-60'> </a>
           <ul className='customNavBar__links w-full justify-end hidden desk:flex'>
             <li className='desk:mr-12'>
-              <a className='custonNavBar__links--item' href='#'>
+              <a
+                id='navItem'
+                type='active'
+                className='custonNavBar__links--item'
+                href='#'
+                onClick={(target) => {
+                  activateItem(target);
+                }}
+              >
                 Servicios
               </a>
             </li>
             <li className=' desk:mr-12'>
-              <a className='custonNavBar__links--item' href='#'>
+              <a
+                id='navItem'
+                type='disabled'
+                className='custonNavBar__links--item'
+                href='#'
+                onClick={(target) => {
+                  activateItem(target);
+                }}
+              >
                 Proyectos
               </a>
             </li>
             <li className='desk:mr-12'>
-              <a className='custonNavBar__links--item' href='#'>
+              <a
+                id='navItem'
+                type='disabled' 
+                className='custonNavBar__links--item'
+                href='#'
+                onClick={(target) => {
+                  activateItem(target);
+                }}
+              >
                 Nosotros
               </a>
             </li>
             <li className='desk:mr-12'>
-              <a className='custonNavBar__links--item' href='#'>
+              <a
+                id='navItem'
+                type='disabled'
+                className='custonNavBar__links--item'
+                href='#'
+                onClick={(target) => {
+                  activateItem(target);
+                }}
+              >
                 Clientes
               </a>
             </li>
             <li className='desk:mr-12'>
-              <a className='custonNavBar__links--item' href='#'>
+              <a
+                id='navItem'
+                type='disabled'
+                className='custonNavBar__links--item'
+                href='#'
+                onClick={(target) => {
+                  activateItem(target);
+                }}
+              >
                 Blog
               </a>
             </li>
             <li>
-              <a className='custonNavBar__links--item' href='#'>
+              <a
+                id='navItem'
+                type='disabled'
+                className='custonNavBar__links--item'
+                href='#'
+                onClick={(target) => {
+                  activateItem(target);
+                }}
+              >
                 Contacto
               </a>
             </li>
@@ -51,4 +99,11 @@ export default function NavBarTW() {
       </div>
     </>
   );
+}
+
+function activateItem(target) {
+  document.querySelectorAll("#navItem").forEach((items) => {
+    items.setAttribute("type", "disabled");
+  });
+  target.target.setAttribute("type", "active");
 }
